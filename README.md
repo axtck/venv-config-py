@@ -5,16 +5,15 @@ Python and pip should be installed.
 pip install virtualenv
 (pip3 install virtualenv)
 
+---
+
 # Commmands
 
-Create:
-
+## Create:
 virtualenv ENV_NAME
 
-Activate:
-
+## Activate:
 source PATH_TO_ENV_NAME/bin/activate
 
-Deactivate:
-
+## Deactivate:
 deactivate
