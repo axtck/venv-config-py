@@ -26,6 +26,10 @@ $ virtualenv ENV_NAME
 ## Activate:
 ```bash
 $ source PATH_TO_ENV_NAME/bin/activate
+
+# Install packages
+# For example:
+$ pip3 install paho-mqtt
 ```
 ## Deactivate:
 ```bash
