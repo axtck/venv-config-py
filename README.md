@@ -1,19 +1,33 @@
 # Python virtualenv config
 
 Python and pip should be installed.
+```bash
+$ pip install virtualenv
+($ pip3 install virtualenv)
+```
+Export $PATH (Linux)
+```bash
+# Add to ~/.zshrc
+export PATH="$HOME/.local/bin:$PATH"
 
-pip install virtualenv
-(pip3 install virtualenv)
+# Run
+$ source ~/.zshrc
+```
 
 ---
 
 # Commmands
 
 ## Create:
-virtualenv ENV_NAME
+```bash
+$ virtualenv ENV_NAME
+```
 
 ## Activate:
-source PATH_TO_ENV_NAME/bin/activate
-
+```bash
+$ source PATH_TO_ENV_NAME/bin/activate
+```
 ## Deactivate:
-deactivate
+```bash
+$ deactivate
+```
