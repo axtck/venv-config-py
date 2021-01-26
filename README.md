@@ -35,3 +35,8 @@ $ pip3 install paho-mqtt
 ```bash
 $ deactivate
 ```
+
+## Export requirements
+```bash
+$ pip freeze > requirements.txt
+```
