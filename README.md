@@ -25,7 +25,9 @@ $ virtualenv ENV_NAME
 
 ## Activate:
 ```bash
-$ source PATH_TO_ENV_NAME/bin/activate
+# Activate
+$ source PATH_TO_ENV_NAME/bin/activate # UNIX
+$ source PATH_TO_ENV_NAME/Scripts/activate # Windows
 
 # Install packages
 # For example:
